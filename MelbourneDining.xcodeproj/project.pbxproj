@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		833BE3BC207B26FA000BE1DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BE3BB207B26FA000BE1DE /* AppDelegate.swift */; };
+		833BE3BE207B26FA000BE1DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BE3BD207B26FA000BE1DE /* ViewController.swift */; };
+		833BE3C1207B26FA000BE1DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833BE3BF207B26FA000BE1DE /* Main.storyboard */; };
+		833BE3C3207B26FA000BE1DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 833BE3C2207B26FA000BE1DE /* Assets.xcassets */; };
+		833BE3C6207B26FA000BE1DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 833BE3C4207B26FA000BE1DE /* LaunchScreen.storyboard */; };
+		833BE3D1207B26FA000BE1DE /* MelbourneDiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BE3D0207B26FA000BE1DE /* MelbourneDiningTests.swift */; };
+		833BE3DC207B26FA000BE1DE /* MelbourneDiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BE3DB207B26FA000BE1DE /* MelbourneDiningUITests.swift */; };
+		833BE3EA207B29DE000BE1DE /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 833BE3E9207B29DE000BE1DE /* BorderButton.swift */; };
+		83F559042085CC1D0084FA69 /* CuisineCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F559032085CC1D0084FA69 /* CuisineCell.swift */; };
+		83F559062085CC240084FA69 /* Cuisine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F559052085CC240084FA69 /* Cuisine.swift */; };
+		83F5590D2085D20E0084FA69 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83F5590C2085D20E0084FA69 /* DataService.swift */; };
+		CB0E3E2B2089AEA4000E94E9 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB0E3E292089AEA4000E94E9 /* Model.xcdatamodeld */; };
+		CB384F782089A5230074A3AE /* ShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB384F772089A5230074A3AE /* ShopCell.swift */; };
+		CB384F7A2089A6F30074A3AE /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB384F792089A6F30074A3AE /* Shop.swift */; };
+		CB950CD9208D983900A532D8 /* ShopTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB950CD8208D983900A532D8 /* ShopTableViewController.swift */; };
+		CB950CDD208DA3EF00A532D8 /* CuisineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB950CDC208DA3EF00A532D8 /* CuisineViewController.swift */; };
+		CB950CDF208DC99500A532D8 /* shopDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB950CDE208DC99500A532D8 /* shopDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		833BE3CD207B26FA000BE1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833BE3B0207B26F9000BE1DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833BE3B7207B26FA000BE1DE;
+			remoteInfo = MelbourneDining;
+		};
+		833BE3D8207B26FA000BE1DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 833BE3B0207B26F9000BE1DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 833BE3B7207B26FA000BE1DE;
+			remoteInfo = MelbourneDining;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		833BE3B8207B26FA000BE1DE /* MelbourneDining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MelbourneDining.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		833BE3BB207B26FA000BE1DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		833BE3BD207B26FA000BE1DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		833BE3C0207B26FA000BE1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		833BE3C2207B26FA000BE1DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		833BE3C5207B26FA000BE1DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		833BE3C7207B26FA000BE1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833BE3CC207B26FA000BE1DE /* MelbourneDiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelbourneDiningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833BE3D0207B26FA000BE1DE /* MelbourneDiningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelbourneDiningTests.swift; sourceTree = "<group>"; };
+		833BE3D2207B26FA000BE1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833BE3D7207B26FA000BE1DE /* MelbourneDiningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MelbourneDiningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		833BE3DB207B26FA000BE1DE /* MelbourneDiningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MelbourneDiningUITests.swift; sourceTree = "<group>"; };
+		833BE3DD207B26FA000BE1DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		833BE3E9207B29DE000BE1DE /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		83F559032085CC1D0084FA69 /* CuisineCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuisineCell.swift; sourceTree = "<group>"; };
+		83F559052085CC240084FA69 /* Cuisine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cuisine.swift; sourceTree = "<group>"; };
+		83F5590C2085D20E0084FA69 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataService.swift; path = MelbourneDining/Services/DataService.swift; sourceTree = SOURCE_ROOT; };
+		CB0E3E2A2089AEA4000E94E9 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		CB384F772089A5230074A3AE /* ShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
+		CB384F792089A6F30074A3AE /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		CB950CD8208D983900A532D8 /* ShopTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTableViewController.swift; sourceTree = "<group>"; };
+		CB950CDC208DA3EF00A532D8 /* CuisineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CuisineViewController.swift; sourceTree = "<group>"; };
+		CB950CDE208DC99500A532D8 /* shopDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		833BE3B5207B26FA000BE1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833BE3C9207B26FA000BE1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833BE3D4207B26FA000BE1DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		833866632085C9DF005E8A16 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CB950CDC208DA3EF00A532D8 /* CuisineViewController.swift */,
+				833BE3E9207B29DE000BE1DE /* BorderButton.swift */,
+				CB950CD8208D983900A532D8 /* ShopTableViewController.swift */,
+				833BE3BD207B26FA000BE1DE /* ViewController.swift */,
+				CB950CDE208DC99500A532D8 /* shopDetailViewController.swift */,
+				833BE3BB207B26FA000BE1DE /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		833866642085C9E7005E8A16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				83F559032085CC1D0084FA69 /* CuisineCell.swift */,
+				CB384F772089A5230074A3AE /* ShopCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		833866652085C9EC005E8A16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				83F559052085CC240084FA69 /* Cuisine.swift */,
+				CB384F792089A6F30074A3AE /* Shop.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		833BE3AF207B26F9000BE1DE = {
+			isa = PBXGroup;
+			children = (
+				833BE3BA207B26FA000BE1DE /* MelbourneDining */,
+				833BE3CF207B26FA000BE1DE /* MelbourneDiningTests */,
+				833BE3DA207B26FA000BE1DE /* MelbourneDiningUITests */,
+				833BE3B9207B26FA000BE1DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		833BE3B9207B26FA000BE1DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				833BE3B8207B26FA000BE1DE /* MelbourneDining.app */,
+				833BE3CC207B26FA000BE1DE /* MelbourneDiningTests.xctest */,
+				833BE3D7207B26FA000BE1DE /* MelbourneDiningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		833BE3BA207B26FA000BE1DE /* MelbourneDining */ = {
+			isa = PBXGroup;
+			children = (
+				833866632085C9DF005E8A16 /* Controller */,
+				833866652085C9EC005E8A16 /* Model */,
+				833866642085C9E7005E8A16 /* View */,
+				83F5590B2085D1EC0084FA69 /* Services */,
+				833BE3BF207B26FA000BE1DE /* Main.storyboard */,
+				833BE3C2207B26FA000BE1DE /* Assets.xcassets */,
+				833BE3C4207B26FA000BE1DE /* LaunchScreen.storyboard */,
+				833BE3C7207B26FA000BE1DE /* Info.plist */,
+				CB0E3E292089AEA4000E94E9 /* Model.xcdatamodeld */,
+			);
+			path = MelbourneDining;
+			sourceTree = "<group>";
+		};
+		833BE3CF207B26FA000BE1DE /* MelbourneDiningTests */ = {
+			isa = PBXGroup;
+			children = (
+				833BE3D0207B26FA000BE1DE /* MelbourneDiningTests.swift */,
+				833BE3D2207B26FA000BE1DE /* Info.plist */,
+			);
+			path = MelbourneDiningTests;
+			sourceTree = "<group>";
+		};
+		833BE3DA207B26FA000BE1DE /* MelbourneDiningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				833BE3DB207B26FA000BE1DE /* MelbourneDiningUITests.swift */,
+				833BE3DD207B26FA000BE1DE /* Info.plist */,
+			);
+			path = MelbourneDiningUITests;
+			sourceTree = "<group>";
+		};
+		83F5590B2085D1EC0084FA69 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				83F5590C2085D20E0084FA69 /* DataService.swift */,
+			);
+			name = Services;
+			path = Model/Services;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		833BE3B7207B26FA000BE1DE /* MelbourneDining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833BE3E0207B26FA000BE1DE /* Build configuration list for PBXNativeTarget "MelbourneDining" */;
+			buildPhases = (
+				833BE3B4207B26FA000BE1DE /* Sources */,
+				833BE3B5207B26FA000BE1DE /* Frameworks */,
+				833BE3B6207B26FA000BE1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MelbourneDining;
+			productName = MelbourneDining;
+			productReference = 833BE3B8207B26FA000BE1DE /* MelbourneDining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		833BE3CB207B26FA000BE1DE /* MelbourneDiningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833BE3E3207B26FA000BE1DE /* Build configuration list for PBXNativeTarget "MelbourneDiningTests" */;
+			buildPhases = (
+				833BE3C8207B26FA000BE1DE /* Sources */,
+				833BE3C9207B26FA000BE1DE /* Frameworks */,
+				833BE3CA207B26FA000BE1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833BE3CE207B26FA000BE1DE /* PBXTargetDependency */,
+			);
+			name = MelbourneDiningTests;
+			productName = MelbourneDiningTests;
+			productReference = 833BE3CC207B26FA000BE1DE /* MelbourneDiningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		833BE3D6207B26FA000BE1DE /* MelbourneDiningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 833BE3E6207B26FA000BE1DE /* Build configuration list for PBXNativeTarget "MelbourneDiningUITests" */;
+			buildPhases = (
+				833BE3D3207B26FA000BE1DE /* Sources */,
+				833BE3D4207B26FA000BE1DE /* Frameworks */,
+				833BE3D5207B26FA000BE1DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				833BE3D9207B26FA000BE1DE /* PBXTargetDependency */,
+			);
+			name = MelbourneDiningUITests;
+			productName = MelbourneDiningUITests;
+			productReference = 833BE3D7207B26FA000BE1DE /* MelbourneDiningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		833BE3B0207B26F9000BE1DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = composer;
+				TargetAttributes = {
+					833BE3B7207B26FA000BE1DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					833BE3CB207B26FA000BE1DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 833BE3B7207B26FA000BE1DE;
+					};
+					833BE3D6207B26FA000BE1DE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 833BE3B7207B26FA000BE1DE;
+					};
+				};
+			};
+			buildConfigurationList = 833BE3B3207B26F9000BE1DE /* Build configuration list for PBXProject "MelbourneDining" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 833BE3AF207B26F9000BE1DE;
+			productRefGroup = 833BE3B9207B26FA000BE1DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				833BE3B7207B26FA000BE1DE /* MelbourneDining */,
+				833BE3CB207B26FA000BE1DE /* MelbourneDiningTests */,
+				833BE3D6207B26FA000BE1DE /* MelbourneDiningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		833BE3B6207B26FA000BE1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833BE3C6207B26FA000BE1DE /* LaunchScreen.storyboard in Resources */,
+				833BE3C3207B26FA000BE1DE /* Assets.xcassets in Resources */,
+				833BE3C1207B26FA000BE1DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833BE3CA207B26FA000BE1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833BE3D5207B26FA000BE1DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833BE3B4207B26FA000BE1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB384F782089A5230074A3AE /* ShopCell.swift in Sources */,
+				83F5590D2085D20E0084FA69 /* DataService.swift in Sources */,
+				CB384F7A2089A6F30074A3AE /* Shop.swift in Sources */,
+				833BE3BE207B26FA000BE1DE /* ViewController.swift in Sources */,
+				83F559042085CC1D0084FA69 /* CuisineCell.swift in Sources */,
+				833BE3BC207B26FA000BE1DE /* AppDelegate.swift in Sources */,
+				CB950CDD208DA3EF00A532D8 /* CuisineViewController.swift in Sources */,
+				CB950CD9208D983900A532D8 /* ShopTableViewController.swift in Sources */,
+				833BE3EA207B29DE000BE1DE /* BorderButton.swift in Sources */,
+				CB950CDF208DC99500A532D8 /* shopDetailViewController.swift in Sources */,
+				CB0E3E2B2089AEA4000E94E9 /* Model.xcdatamodeld in Sources */,
+				83F559062085CC240084FA69 /* Cuisine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833BE3C8207B26FA000BE1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833BE3D1207B26FA000BE1DE /* MelbourneDiningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		833BE3D3207B26FA000BE1DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				833BE3DC207B26FA000BE1DE /* MelbourneDiningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		833BE3CE207B26FA000BE1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833BE3B7207B26FA000BE1DE /* MelbourneDining */;
+			targetProxy = 833BE3CD207B26FA000BE1DE /* PBXContainerItemProxy */;
+		};
+		833BE3D9207B26FA000BE1DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 833BE3B7207B26FA000BE1DE /* MelbourneDining */;
+			targetProxy = 833BE3D8207B26FA000BE1DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		833BE3BF207B26FA000BE1DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833BE3C0207B26FA000BE1DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		833BE3C4207B26FA000BE1DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				833BE3C5207B26FA000BE1DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		833BE3DE207B26FA000BE1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		833BE3DF207B26FA000BE1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		833BE3E1207B26FA000BE1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourneDining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcx.MelbourneDining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		833BE3E2207B26FA000BE1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourneDining/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcx.MelbourneDining;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		833BE3E4207B26FA000BE1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourneDiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcx.MelbourneDiningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelbourneDining.app/MelbourneDining";
+			};
+			name = Debug;
+		};
+		833BE3E5207B26FA000BE1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourneDiningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcx.MelbourneDiningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MelbourneDining.app/MelbourneDining";
+			};
+			name = Release;
+		};
+		833BE3E7207B26FA000BE1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourneDiningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcx.MelbourneDiningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MelbourneDining;
+			};
+			name = Debug;
+		};
+		833BE3E8207B26FA000BE1DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MelbourneDiningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zcx.MelbourneDiningUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MelbourneDining;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		833BE3B3207B26F9000BE1DE /* Build configuration list for PBXProject "MelbourneDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833BE3DE207B26FA000BE1DE /* Debug */,
+				833BE3DF207B26FA000BE1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833BE3E0207B26FA000BE1DE /* Build configuration list for PBXNativeTarget "MelbourneDining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833BE3E1207B26FA000BE1DE /* Debug */,
+				833BE3E2207B26FA000BE1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833BE3E3207B26FA000BE1DE /* Build configuration list for PBXNativeTarget "MelbourneDiningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833BE3E4207B26FA000BE1DE /* Debug */,
+				833BE3E5207B26FA000BE1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		833BE3E6207B26FA000BE1DE /* Build configuration list for PBXNativeTarget "MelbourneDiningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				833BE3E7207B26FA000BE1DE /* Debug */,
+				833BE3E8207B26FA000BE1DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB0E3E292089AEA4000E94E9 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB0E3E2A2089AEA4000E94E9 /* Model.xcdatamodel */,
+			);
+			currentVersion = CB0E3E2A2089AEA4000E94E9 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 833BE3B0207B26F9000BE1DE /* Project object */;
+}
